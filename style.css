@@ -42,4 +42,12 @@ p {
       .content {
         margin: 70px;
       }
-  
+.habilidades {
+  font-size: 14px;
+  font-style: italic
+}
+.interesses {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400
+}
