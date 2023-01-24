@@ -1,6 +1,30 @@
+@font-face {
+  font-family: 'icones';
+  src: url("icones.ttf");
+}
 body {
-    background-color: #ccfff5;
-    font-family: "Verdana", sans-serif;
+    background-color: ;
+    font-family: "Verdana", 'icones', sans-serif;
+}
+.cabecalho {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: cornsilk;
+  padding: 8px 16px;
+  color: #1d232a
+}
+.cabecalho__menu i::before {
+  content: "\e904";
+  font-size: 24px;
+}
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  background-color: cornsilk;
+  color: #1d232a;
+  width: 75vw;
+  height: 100vh;
 }
 p {
     font-size: 20px;
@@ -28,7 +52,7 @@ p {
       .bio {
         height: 90%;
         text-align: center;
-        background: white;
+        background: linear-gradient(#ff9901, #ffff1a, #00802b);
         width: 50%;
         padding: 30px;
         border: 1px solid gray;
